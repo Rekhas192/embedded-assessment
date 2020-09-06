@@ -33,6 +33,7 @@
  *
  * @return void
  */
+ void print_array(unsigned char *arr, unsigned int size);
 
 /**
  * @brief Sorts an array
@@ -44,6 +45,7 @@
  *
  * @return void
  */
+ void sort_array(unsigned char *arr, unsigned int size);
 
 /**
  * @brief finds median of the elements of an array
@@ -55,6 +57,7 @@
  *
  * @return An unsigned char equal to the median of the elements of the array
  */
+ unsigned char find_median(unsigned char *arr, unsigned int size);
 
 /**
  * @brief finds mean of the elements of an array
@@ -66,7 +69,7 @@
  *
  * @return An unsigned char equal to the mean of the elements of the array
  */
-
+ unsigned char find_mean(unsigned char *arr, unsigned int size);
 
 /**
  * @brief finds maximum of the elements of an array
@@ -78,7 +81,7 @@
  *
  * @return An unsigned char equal to the maximum of the elements of the array
  */
-
+ unsigned char find_maximum(unsigned char *arr, unsigned int size);
 
 /**
  * @brief finds minimum of the elements of an array
@@ -90,7 +93,7 @@
  *
  * @return An unsigned char equal to the minimum of the elements of the array
  */
-
+ unsigned char find_minimum(unsigned char *arr, unsigned int size);
 
 /**
  * @brief Prints statistics of an array namely minimum, maximum, mean, and median.
@@ -104,5 +107,7 @@
  *
  * @return void
  */
+ void print_statistics(unsigned char mean, unsigned char median, unsigned char maximum,unsigned char minimum);    
+
 
 #endif /* __STATS_H__ */
