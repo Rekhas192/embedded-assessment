@@ -21,20 +21,88 @@
 #ifndef __STATS_H__
 #define __STATS_H__
 
-/* Add Your Declarations and Function Comments here */ 
+/* This file contains function to print the array, sort the array, functions to find mean, median, minimum and maximum of the sorted array, function to print the calculated statistics*/ 
 
 /**
- * @brief <Add Brief Description of Function Here>
+ * @brief Prints an array to the screen.
  *
- * <Add Extended Description Here>
+ * Given an array and it's size, prints the array to the screen.
  *
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
+ * @param arr An unsigned char pointer to the array
+ * @param size Size of the array pointed to by arr
  *
- * @return <Add Return Informaiton here>
+ * @return void
  */
 
+/**
+ * @brief Sorts an array
+ *
+ * Given an array and it's size, sorts the elements of the array in descending order.
+ *
+ * @param arr An unsigned char pointer to the array
+ * @param size Size of the array pointed to by arr
+ *
+ * @return void
+ */
+
+/**
+ * @brief finds median of the elements of an array
+ *
+ * Given an array and it's size, returns the median of the elements of the array.
+ *
+ * @param arr An unsigned char pointer to the array
+ * @param size Size of the array pointed to by arr
+ *
+ * @return An unsigned char equal to the median of the elements of the array
+ */
+
+/**
+ * @brief finds mean of the elements of an array
+ *
+ * Given an array and it's size, returns the mean of the elements of the array.
+ *
+ * @param arr An unsigned char pointer to the array
+ * @param size Size of the array pointed to by arr
+ *
+ * @return An unsigned char equal to the mean of the elements of the array
+ */
+
+
+/**
+ * @brief finds maximum of the elements of an array
+ *
+ * Given an array and it's size, returns the maximum of the elements of the array.
+ *
+ * @param arr An unsigned char pointer to the array
+ * @param size Size of the array pointed to by arr
+ *
+ * @return An unsigned char equal to the maximum of the elements of the array
+ */
+
+
+/**
+ * @brief finds minimum of the elements of an array
+ *
+ * Given an array and it's size, returns the minimum of the elements of the array.
+ *
+ * @param arr An unsigned char pointer to the array
+ * @param size Size of the array pointed to by arr
+ *
+ * @return An unsigned char equal to the minimum of the elements of the array
+ */
+
+
+/**
+ * @brief Prints statistics of an array namely minimum, maximum, mean, and median.
+ *
+ * Prints the minimum, maximum, mean, and median to STDOUT.
+ *
+ * @param mean Calculated Mean of the elements of the array.
+ * @param median Calculated Median of the elements of the array.
+ * @param maximum Calculated Maximum of the elements of the array.
+ * @param minimum Calculated Minimum of the elements of the array.
+ *
+ * @return void
+ */
 
 #endif /* __STATS_H__ */

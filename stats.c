@@ -40,6 +40,7 @@ void main() {
                                 7,  87, 250, 230,  99,   3, 100,  90};
 
   /* Other Variable Declarations Go Here */
+  unsigned char mean,median,minimum,maximum;
   /* Statistics and Printing Functions Go Here */
 
 }
